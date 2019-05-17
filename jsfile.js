@@ -59,7 +59,8 @@ window.onload=function() {
         //document.getElementById(31).style.left = l + "px";
         }
         //var timer = setInterval(spaceship_fire,10);
-        function moveFire() {          
+        function moveFire() {
+            //moving fire          
             var timer = setInterval(spaceship_fire_up, 20);
             }
             
