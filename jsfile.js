@@ -84,6 +84,7 @@ window.onload=function() {
             }
 
         function kill(id){
+            //Killes any item
             document.getElementById(id).src="New icons/background.png";
             document.getElementById(31).style.top  = "0px";
             document.getElementById(31).style.left  = "0px";
